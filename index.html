@@ -100,6 +100,64 @@
         </section>
         <section id="book_a_table" class="reservation">
           <a href="#book_a_table" class="reservation"></a>
+          <h2 class="reservation__title">Book a table</h2>
+          <form class="reservation__form form">
+            <fieldset class="form__fieldset">
+              <label for="name-input" class="form__label">
+                Name *
+                <input
+                  class="form__input"
+                  type="text"
+                  id="name-input"
+                  placeholder="Name Surname"
+                  required
+                />
+              </label>
+              <label for="guests-number-input" class="form__label">
+                Number of guests *
+                <input
+                  class="form__input"
+                  type="number"
+                  id="guests-number-input"
+                  placeholder="1-8"
+                  min="1"
+                  max="8"
+                  required
+                />
+              </label>
+              <label for="datetime-input" class="form__label">
+                Date & time *
+                <input
+                  class="form__input"
+                  type="datetime-local"
+                  id="datetime-input"
+                  required
+                />
+              </label>
+              <label for="email-input" class="form__label">
+                Your email *
+                <input
+                  class="form__input"
+                  type="email"
+                  id="email-input"
+                  placeholder="email@email.com"
+                  required
+                />
+              </label>
+            </fieldset>
+            <button class="form__button">Book a table</button>
+            <label
+              for="checkbox-input"
+              class="form__label form__label_type_checkbox"
+            >
+              <input
+                class="form__checkbox"
+                type="checkbox"
+                id="checkbox-input"
+              />
+              I agree with the terms of use
+            </label>
+          </form>
         </section>
         <section id="menu" class="menu">
           <a href="#menu" class="menu"></a>
