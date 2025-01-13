@@ -24,9 +24,10 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  color: #6f6f6f;
   transition: opacity 0.5s;
   cursor: pointer;
+  text-decoration: none;
+  color: #838383;
 }
 
 .nav__link:hover {
