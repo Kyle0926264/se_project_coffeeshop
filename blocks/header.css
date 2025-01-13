@@ -18,6 +18,7 @@
   height: 568px;
   right: 5px;
   top: 124px;
+  z-index: -1;
 }
 
 .header__title {
@@ -51,6 +52,8 @@
   margin-top: auto;
   display: flex;
   justify-content: space-between;
+  color: #6f6f6f;
+  font-weight: normal;
 }
 
 .header__paragraph {
